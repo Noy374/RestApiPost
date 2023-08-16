@@ -1,6 +1,7 @@
 package com.example.restapipost.validations;
 
 
+import lombok.NoArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
