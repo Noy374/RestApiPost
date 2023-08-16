@@ -1,2 +1,10 @@
-package com.example.restapipost.payload.response;public class MessageResponse {
+package com.example.restapipost.payload.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class MessageResponse {
+    private String message;
 }
